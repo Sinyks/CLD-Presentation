@@ -1,57 +1,24 @@
 ---
 title: "Openshift"
 author: [CLD - Groupe E]
-date: "28-05-2021"
+date: "31-05-2021"
 subject: "Openshift"
 keywords: [Markdown, Example]
 lang: "fr"
 ...
 
-# Vinaque sanguine metuenti cuiquam Alcyone fixus
+# CLD Workshop OpenShift
 
-## Aesculeae domus vincemur et Veneris adsuetus lapsum
+## Introduction
+OpenShift est un service de plate-forme en tant que service de la société Red Hat qui permet de déployer des projets dans des containers. OpenShift utilise les technologies Docker et Kubernetes.
 
-Lorem markdownum Letoia, et alios: figurae flectentem annis aliquid Peneosque ab
-esse, obstat gravitate. Obscura atque coniuge, per de coniunx, sibi **medias
-commentaque virgine** anima tamen comitemque petis, sed. In Amphion vestros
-hamos ire arceor mandere spicula, in licet aliquando.
+## Modèle économique
 
-```java
-public class Example implements LoremIpsum {
-	public static void main(String[] args) {
-		if(args.length < 2) {
-			System.out.println("Lorem ipsum dolor sit amet");
-		}
-	} // Obscura atque coniuge, per de coniunx
-}
-```
+## Fonctionnalitées Paas (qu'est ce que le produit offre)
 
-Porrigitur et Pallas nuper longusque cratere habuisse sepulcro pectore fertur.
-Laudat ille auditi; vertitur iura tum nepotis causa; motus. Diva virtus! Acrota
-destruitis vos iubet quo et classis excessere Scyrumve spiro subitusque mente
-Pirithoi abstulit, lapides.
+### Modes de déploiement d'application
 
-## Lydia caelo recenti haerebat lacerum ratae at
-
-Te concepit pollice fugit vias alumno **oras** quam potest
-[rursus](http://example.com#rursus) optat. Non evadere orbem equorum, spatiis,
-vel pede inter si.
-
-1. De neque iura aquis
-2. Frangitur gaudia mihi eo umor terrae quos
-3. Recens diffudit ille tantum
-
-\begin{equation}\label{eq:neighbor-propability}
-    p_{ij}(t) = \frac{\ell_j(t) - \ell_i(t)}{\sum_{k \in N_i(t)}^{} \ell_k(t) - \ell_i(t)}
-\end{equation}
-
-Tamen condeturque saxa Pallorque num et ferarum promittis inveni lilia iuvencae
-adessent arbor. Florente perque at condeturque saxa et ferarum promittis tendebat. Armos nisi obortas refugit me.
-
-> Et nepotes poterat, se qui. Euntem ego pater desuetaque aethera Maeandri, et
-[Dardanio geminaque](http://example.com#Dardanio_geminaque) cernit. Lassaque poenas
-nec, manifesta $\pi r^2$ mirantia captivarum prohibebant scelerato gradus unusque
-dura.
-
-- Permulcens flebile simul
-- Iura tum nepotis causa motus diva virtus Acrota. Tamen condeturque saxa Pallorque num et ferarum promittis inveni lilia iuvencae adessent arbor. Florente perque at ire arcum.
+- Git
+- Docker
+- DevFile
+- etc
