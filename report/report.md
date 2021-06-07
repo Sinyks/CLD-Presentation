@@ -14,7 +14,7 @@ OpenShift est un service de plate-forme en tant que service de la société Red 
 
 Le projet est open-source et peut-être auto-hébergé au sein de sa propre infrastructure.
 
-## Principaux avantages
+## Principaux avantages/features
 
 ### Pour les Business leaders
 
@@ -22,19 +22,34 @@ Le projet est open-source et peut-être auto-hébergé au sein de sa propre infr
 - Accélerer la vitesse de déploiement et de développement
 
 ### Pour les opérateurs/sysadmin
-**TODO**
+
+- Compatible avec une infrastructure virtualisé (en auto-hébergement)
+- Gestion des ressources centralisé (CPU, mémoire,...) 
+- Gestion des *Image Stream* internes (image Docker de l'entreprise par ex.) pour les développeurs
 
 ### Pour les développeurs
-**TODO**
 
-### Modes de déploiement d'application
+- Permet la mise en place d'infrastructure de développement automatisé (Pipeline, worflow)
+- Plus facile d'accès qu'un pure *Kubernetes* (couche d'abstraction avec le CLI ``odo``)
+ 
+### Source de déploiement d'application
 
 - Git
 - Docker
 - DevFile
 - kubernetes
 
-## Modèle économique
+## Stratégie économique
+
+Selon RedHat, nous gagnons :
+
+- temps de développement: mois -> semaines,
+- temps de déploiements en heures,
+- coût de build applicatifs réduits de 60%.
+
+Quand hébergé sur AWS, OpenShift réduirait l'OpEx de 54% sur 5 ans, serait rentable en 5 mois, et aurait un ROI de 661% sur 5 ans.
+
+L'usage simultané de cloud on-premises et public permettent d'avoir une flexibilité et agilité particulièrement intéressante pour viser différents types de marchés avec des besoins mutuellement exclusifs. Couplé aux gains temporels et financiers, cette technologie a le potentiel de rendre une entreprise nettement plus compétitive.
 
 # Example d'utilisation d'Openshift
 
