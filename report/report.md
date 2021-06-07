@@ -23,7 +23,7 @@ Le projet est open-source et peut-être auto-hébergé au sein de sa propre infr
 
 ### Pour les opérateurs/sysadmin
 
-- Compatible avec une infrastructure virtualisé (en auto-hébergement)
+- Compatible avec une infrastructure virtualisée (en auto-hébergement)
 - Gestion des ressources centralisé (CPU, mémoire,...) 
 - Gestion des *Image Stream* internes (image Docker de l'entreprise par ex.) pour les développeurs
 
@@ -31,7 +31,7 @@ Le projet est open-source et peut-être auto-hébergé au sein de sa propre infr
 
 - Permet la mise en place d'infrastructure de développement automatisé (Pipeline, worflow)
 - Plus facile d'accès qu'un pure *Kubernetes* (couche d'abstraction avec le CLI ``odo``)
- 
+
 ### Source de déploiement d'application
 
 - Git
@@ -50,6 +50,20 @@ Selon RedHat, nous gagnons au niveau:
 Quand hébergé sur AWS, OpenShift réduirait l'OpEx de 54% sur 5 ans, serait rentable en 5 mois, et aurait un retour sur investissement de 661% sur 5 ans.
 
 L'usage simultané de cloud on-premises et public permettent d'avoir une flexibilité et agilité particulièrement intéressante pour viser différents types de marchés avec des besoins mutuellement exclusifs. Couplé aux gains temporels et financiers, cette technologie a le potentiel de rendre une entreprise nettement plus compétitive.
+
+### On-premise vs self-managed
+
+Si l'on considère une infrastructure auto-géré il sera nécéssaire d'y inclure les coût d'achat de matériel ainsi que les coût de maintenance, ces derniers sont inclus dans une offre *On-premise* (infrastructure est hébergé chez un fournisseur cloud tier).
+
+
+
+![](./TCO-Oct-Final.png)
+
+
+
+Les prix de l'hébergement selon Red-Hat:
+
+![](./RHpricing.png)
 
 # Example d'utilisation d'Openshift
 
