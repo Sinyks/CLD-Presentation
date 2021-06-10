@@ -67,5 +67,7 @@ Les prix de l'hébergement selon Red-Hat:
 
 # Example d'utilisation d'Openshift
 
-Les utilisateur d'Openshift, qu'ils soit administrateur ou développeur dispose d'outil adapté à leur situation: ``oc`` et ``odo``
+Les utilisateur d'Openshift, qu'ils soit administrateur ou développeur dispose d'outil adapté à leur situation: ``oc`` et ``odo`` :
+
+![](./oc.png)
 
