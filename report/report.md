@@ -74,7 +74,7 @@ Les utilisateurs d'Openshift, qu'ils soit administrateur ou développeur dispose
 
 ### OC
 
-``oc`` permet la création d'application conteneurisés ainsi que la gestion de la plateforme de puis la ligne de commande, utilisé de préférence par les administrateurs de la plateforme
+``oc`` permet la création d'application conteneurisés ainsi que la gestion de la plateforme depuis la ligne de commande, utilisé de préférence par les administrateurs de la plateforme
 
 ```bash
 # crée une nouvelle application depuis github
