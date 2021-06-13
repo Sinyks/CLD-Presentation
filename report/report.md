@@ -70,8 +70,6 @@ Les offres d'hébergements chez les différents fournisseurs Cloud proposés par
 
 Les utilisateurs d'Openshift, qu'ils soit administrateur ou développeur disposent d'outils en ligne de commande adaptés à leurs situations : ``oc`` et ``odo`` :
 
-![](./oc.png)
-
 ### OC
 
 ``oc`` permet la création d'application conteneurisés ainsi que la gestion de la plateforme depuis la ligne de commande, utilisé de préférence par les administrateurs de la plateforme
@@ -84,7 +82,7 @@ $ oc new-app https://github.com/sclorg/cakephp-ex
 $ oc logs cakephp-ex-1-deploy
 ```
 
-
+![](./oc.PNG)
 
 ### ODO
 
