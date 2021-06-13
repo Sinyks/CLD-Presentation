@@ -1,10 +1,11 @@
 ---
-title: "Openshift"
-author: [CLD - Groupe E]
+title: "CLD WorkShop - Openshift"
+author: Groupe E [SP, OD, MD, QL, AF] 
 date: "31-05-2021"
 subject: "Openshift"
 keywords: [Markdown, Example]
 lang: "en"
+titlepage: true
 ...
 
 # CLD Workshop OpenShift
@@ -61,13 +62,51 @@ Si l'on considère une infrastructure auto-géré il sera nécéssaire d'y inclu
 
 
 
-Les prix de l'hébergement selon Red-Hat:
+Les offres d'hébergements chez les différents fournisseurs Cloud proposés par _Red hat_ sont détaillé ci-dessous:
 
-![](./RHpricing.png)
+![](./pricing_cut.png)
 
-# Example d'utilisation d'Openshift
+# Example d'utilisation d'Openshift - CLI
 
-Les utilisateur d'Openshift, qu'ils soit administrateur ou développeur dispose d'outil adapté à leur situation: ``oc`` et ``odo`` :
+Les utilisateurs d'Openshift, qu'ils soit administrateur ou développeur disposent d'outils en ligne de commande adaptés à leurs situations : ``oc`` et ``odo`` :
 
 ![](./oc.png)
+
+### OC
+
+``oc`` permet la création d'application conteneurisés ainsi que la gestion de la plateforme de puis la ligne de commande, utilisé de préférence par les administrateurs de la plateforme
+
+```bash
+# crée une nouvelle application depuis github
+$ oc new-app https://github.com/sclorg/cakephp-ex
+
+# inspecter les logs d'une application
+$ oc logs cakephp-ex-1-deploy
+```
+
+
+
+### ODO
+
+``odo`` est l'interface pour ligne de commande qui allège la complexité de ``kubernetes`` , cela permet aux développeurs de facilement déployer leurs applications .
+
+```bash
+# Se connecter à la plateforme
+$ odo login -u developer -p developer
+
+# lister les composant (supporté ou non-supporté)
+$ odo catalog list components
+
+# Suppression d'une application
+$ odo app delete myapp
+
+# Obtenir la description d'une application
+$ odo app describe webapp
+
+ # Créer un composant à partir d'une image NodeJS avec les sources du dossier "frontend"
+$ odo create nodejs frontend --context ./frontend
+
+```
+
+
 
